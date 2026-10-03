@@ -1,3 +1,4 @@
+// Iterative Fibonacci
 function fibs(value) {
   if (value === 0) return [];
   if (value === 1) return [0];
@@ -15,6 +16,7 @@ function fibs(value) {
   return result;
 }
 
+// Recursive Fibonacci
 function fibsRec(value) {
   if (value <= 0) return [];
   if (value === 1) return [0];

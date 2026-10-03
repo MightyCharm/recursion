@@ -1,3 +1,4 @@
+// Merge sort (recursive split + iterative merge)
 function mergeSort(data) {
   if (data.length <= 1) {
     return data;
